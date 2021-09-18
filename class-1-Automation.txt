@@ -1,0 +1,131 @@
+manual testing vs automation testing >> functional testing/UI testing/GUI testing 
+
+web based application >> 
+
+manual testing >> present 
+automation testing >> future 
+
+
+user stories >> in sprint 2 - developed 
+
+manually >> 5 test cases and execute them 
+sanity testing 
+
+3 months - release - new version 10 to 11 
+
+1. New functionalities - new requirement
+2. modified functionalities - modify exisiting requirment
+3. bug fixes - 15 serious bugs
+
+software team >> 
+
+1. new test case 
+2. modify some test cases
+3. you need to test again >> executing test case 
+
+when software tester should test? 
+
+devops people 
+
+deployed 
+dev env - 192.165.43.23
+
+test env - 192.165.43.22 
+
+400 test cases >> 50 test cases
+10 new test cases 
+
+smoke testing - 50 test cases 
+
+sanity testing - 10 new test cases
+
+regression testing - 400 test cases + 10 new test cases
+410 test cases 
+
+data driven testing > 
+
+10 testers >> 1 million dollar 
+2 tester >> 800 K 
+
+UAT - user acceptance testing >> release 
+
+www.amazon.com
+
+
+100 reqs >> 550 test cases 
+
+Automation tester >> writing automated test scripts 
+
+1. does automation is better than manual testing? 
+
+
+
+2. test plan vs test strategy? 
+
+test strategy >> company wide docs >> test director 
+
+test plan >> release - 3 months
+project team > > 
+
+Java - as our programming lanauge 
+selenium - programming library for UI testing/WEB UI 
+TestNG + cucumber - testing framework
+git,github+ maven+ jenkins - test managment 
+
+Homework - 
+
+Computer Programming: 
+its a language that computer understands, and we can
+provide instructions to computer 
+
+java/python/C#/C/java script/ruby 
+
+machine language - 010101010100111
+1- 
+
+1. jdk - java development kit 
+
+version 8 / 1.8 
+
+2. code editor - eclipse 
+
+2019-06 
+
+anik@agile1tech.com
+
+Agileteach12++
+
+jdk should be installed 
+
+and eclipse should be downloaded 
+
+eclipse workspace - create a folder in your desktop
+
+
+
+
+
+
+
+
+
+
+In eclipse >> 
+
+java project >> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
