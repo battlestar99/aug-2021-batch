@@ -194,6 +194,9 @@ monthly payment >> for the car buyer
 
 
 
+20000 + 300 >> 20300 
+
+tax >> 20300*(5/100)
 
 
 
@@ -203,10 +206,31 @@ monthly payment >> for the car buyer
 
 
 
+100 + 10 >> 110 
+
+5 percent >> (5/100)*110 = 5.5 
+
+total price = 110 + 5.5 = 115.5 
+
+115.5-20 = 95.5 
+
+apr = 2 
+
+(2/100)*95.5 = 1.91 
+
+95.5 + 1.91 = 97.41 
+
+6 years = 72 months 
 
 
+monthly payment = 97.41/72 = 1.35
+
+datatype variablename = data; 
+
+if(conditon){
 
 
+}
 
 
 
