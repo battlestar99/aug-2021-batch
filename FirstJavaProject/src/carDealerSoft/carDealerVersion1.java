@@ -44,11 +44,24 @@ public class carDealerVersion1 {
 	    	
 	    }
 	    
-    if(creditScore<700) {
+	    else if(creditScore<700 && creditScore>600 ) {
 	    	
 	    	apr = 4; 
 	    	
 	    }
+    
+    else if(creditScore<=600 && creditScore>=500 ) {
+    	
+    	apr = 7; 
+    	
+    }
+    
+    else {
+    	
+    System.out.println("the customer application is denied");	
+    	
+    }
+
     
     interestAmount = financeAmount*(apr/100);
     

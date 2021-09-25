@@ -304,6 +304,76 @@ else( condtion two is false)
 
 }
 
+if(name=="Mike" and address=="fairfax") {
+
+
+
+}
+
+range between 
+
+600 to 700 
+
+creditscore < 700 && creditscroe>600
+
+
+&& >> and sign 
+|| >> or sign
+
+
+
+
+
+
+
+
+if()
+
+create an integer variable 
+
+marks
+String grade="abc";
+
+if(marks>90) {grade=a}
+else if(marks>80 and marks<90) {grade=b}
+else if(marks>80 marks<70) {grade=c}
+else if(marks>70 marks<60) {grade=d}
+else {grade=f}
+
+System.out.println("The students grade");
+System.out.println(grade);
+
+
+
+
+
+
+if(condition){}
+else{}
+
+looping >> 
+array >> 
+
+1. java projects, packages, classes 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -11,6 +11,10 @@ public class conditonalTesting {
 		boolean flag1 = (x>y+z);//false
 		boolean flag2 = (x>y-z); // true
 		
+		boolean abc; 
+		
+		abc = true; 
+		
 		
 		if(flag1) {
 			
