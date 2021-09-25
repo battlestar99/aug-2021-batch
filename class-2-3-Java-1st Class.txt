@@ -1,0 +1,322 @@
+what is computer programming? 
+
+giving instructions to the computer
+
+using different programming language 
+
+java, python, C#
+
+what we do in computer programming? 
+
+we create a process>> 
+
+what computer can do? 
+
+1. computer can deal with data 
+
+2. conditional statement 
+
+3. looping
+
+4. data structure - array 
+
+5. Method/functions 
+
+Structure of java - 
+
+jdk >> java development kit
+jre >> java runtime environment 
++ java core library 
+
+eclipse >> programming editor 
+IDE - integrated development environment 
+
+what is the basic unit of java? 
+
+package >> java folder
+class >> test script
+method>> 
+main method>> is the starting point of any code 
+method >> you can only use when you need 
+
+class + main method >> java runnable class
+class >> java non-runnable class
+
+scope >> starting point and ending point 
+
+{ }
+
+
+1. computer can deal with data 
+
+amount of money
+ssn 
+name
+website url
+address 
+
+35 
+mike
+www.google.com
+to store data >> 
+
+need to create a variable 
+
+x = 12; 
+
+name = "mike"
+
+every variable is a memory space in your computer 
+
+what kind of data you want to store? 
+
+integer >> can store any whole number
+string >> can store any set of characters
+double >> can store any decimal number
+boolean >> true/false 
+
+
+
+you want to store a number 105 
+
+what type of variable is x? 
+
+int x = 105; 
+
+String name = "mike";
+
+10.10
+
+double y = 10.10; 
+
+boolean flag = true; 
+
+
+datatype variable_name= data; 
+
+int a; 
+a=10.10
+String firstname; 
+
+double y; 
+y=10.10
+
+
+step 1: variable declaretion
+int b ; 
+step 2: initialize a variable 
+b = 12; 
+
+two steps together
+
+int b = 12; 
+
+
+
+
+
+
+int x ; 
+
+x is an integer type of variable
+
+double y 
+
+y is a double type of variable
+
+String ssn 
+
+ssn is a string type of variable 
+
+key point: java is a case sensitive programming language
+
+a and A 
+b and B 
+car plate number
+
+12-2343
+
+767667887
+
+
+
+2. conditional statement 
+
+statement execute based on condition
+
+you will buy a car if you get the car in 5000 dollar
+
+you will go to walmart if there is no raining 
+
+if(condition){
+
+// statement 
+
+}
+
+= assigning a value 
+
+x = 5; 
+
+y = 129;
+
+x==5 >> false
+
+if(condition) {
+
+// code you are writing 
+
+}
+
+Email: 
+
+anik@agile1tech.com
+
+
+
+
+
+Problem: 
+
+you need to create a software that will calculate the 
+monthly payment of a car dealership 
+
+baseprice
+dealership fee 
+credit score>> apr 
+6 years/7years 
+tax 
+
+400 
+
+monthly payment >> for the car buyer 
+
+
+
+
+20000 + 300 >> 20300 
+
+tax >> 20300*(5/100)
+
+
+
+
+
+
+
+
+
+100 + 10 >> 110 
+
+5 percent >> (5/100)*110 = 5.5 
+
+total price = 110 + 5.5 = 115.5 
+
+115.5-20 = 95.5 
+
+apr = 2 
+
+(2/100)*95.5 = 1.91 
+
+95.5 + 1.91 = 97.41 
+
+6 years = 72 months 
+
+
+monthly payment = 97.41/72 = 1.35
+
+datatype variablename = data; 
+
+if(conditon){
+
+
+}
+
+
+int x = 45; 
+double y = 56.87; 
+string name = "mike";
+boolean flag = false; 
+
+
+
+
+
+conditonal statment: 
+
+if(condition) {
+
+// 5 lines of code here 
+
+}
+
+== comparision operator 
+
+=    assignment operation
+
+int x = 12; 
+int y = 15; 
+
+x = y ; 
+
+
+
+
+
+condition 
+
+x==y >> true/false
+x>y>> true/false
+x<y  
+
+boolean x; 
+
+x = (x>y)
+
+code 
+
+if(condition) else
+if ( condition) else
+if (condition) else 
+
+
+if(condition) {
+
+
+}
+
+
+java project - learningJava >> 
+
+jre system library
+src >> package1 
+
+          >> class name conditionalTesting with main method 
+
+         Problem: create 3 integer variables with the name x, y, z  , put any value you want
+ two boolean variable, flag1 , flag2 
+            flag1 = (x>y+z) if(flag1){print "x is greater than summation of y and z"}
+else{"conidtion one is false"}
+           
+      flag2 = (x> y-z) if(flag2){x is greater than y subtract 
+z}
+else( condtion two is false)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

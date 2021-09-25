@@ -58,6 +58,8 @@ public class carDealerSoftVer2 {
 	    	
 	    }
     
+    
+    
     interestAmount = financeAmount*(apr/100);
     
 	    
