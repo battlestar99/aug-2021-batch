@@ -1,0 +1,93 @@
+java methods or java functions
+
+main method of java >> runnable class
+
+not runnable class >> this class doesn't have main method 
+
+methods >> non runnable class
+
+java method: 
+
+is a block of code that will get executed when calls 
+
+  1. to do certain task again and again 
+
+
+get("www.google.com")
+
+learning objective : 
+
+   1. how to create a method by yourself 
+   2. how to call / use a method >> by yourself/by other programmers
+   
+how to create a java method 
+
+input >> system>> output 
+
+     public int run(int x, int y){
+
+// what method or system is going to do write here
+
+}
+
+
+public datatype methodname(parameters/arguments){
+
+
+
+
+}
+
+calling or using a method 
+
+step 1: creating an object of the class 
+
+traditional programming concept >> you create a method and you call 
+the method, the method will execute
+
+object oriendted programming concept 
+
+public void getflag(parameters){
+
+// block of code 
+
+
+
+}
+
+
+webdriver driver=new chromedriver();
+
+
+driver.get(url);
+
+String x = driver.getText();
+
+requirment of the application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
