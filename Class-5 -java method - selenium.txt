@@ -20,20 +20,51 @@ h.go();
 
 local variable : a variable that is created inside a method
 
+global variable: variables created outside of any function, and inside a class only, global variables are available througout the whole class 
+
+class - non runnable class - design or prototype of a system 
+
+system or anything can do >> 
+
+it can do something - go run sleep walk drive 
+
+it has some attributes - name ssn color race 
 
 
+car - drive stop brake light
+vin, color, ownername
 
 
+what a class can do is - functions of the class 
 
+what are the attributes/properites of the class - global variable
 
+a class can have two things >> methods and properties
 
+static: not part of any object, only part of the class
 
-
-
-
-
-
-
+static will not be copied to any object 
+from where we can use a function? 
 
 
 what is java programming library? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
