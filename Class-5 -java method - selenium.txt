@@ -1,0 +1,39 @@
+what is a function in java? 
+
+how to create them? 
+
+human
+public int go(String x){
+
+// code will go here 
+
+return 34; 
+
+}
+
+how to use them? 
+
+human h = new human();
+
+h.go();
+
+
+local variable : a variable that is created inside a method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+what is java programming library? 
