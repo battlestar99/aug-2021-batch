@@ -49,7 +49,22 @@ from where we can use a function?
 
 what is java programming library? 
 
+selenium setup 
 
+1. two jar files - selenium libraries 
+
+selenium-java 
+selenium-server-standlone 
+
+2. 
+browser - google chrome 
+browser driver file 
+
+C:\\Users\\Agile1Tech\\Desktop\\workspace-aug-2021\\drivers\\chromedriver.exe
+
+webdriver driver = new webdriver();
+
+webdriver driver = new chromedriver();
 
 
 

@@ -1,0 +1,238 @@
+what is a function in java? 
+
+how to create them? 
+
+human
+public int go(String x){
+
+// code will go here 
+
+return 34; 
+
+}
+
+how to use them? 
+
+human h = new human();
+
+h.go();
+
+
+local variable : a variable that is created inside a method
+
+global variable: variables created outside of any function, and inside a class only, global variables are available througout the whole class 
+
+class - non runnable class - design or prototype of a system 
+
+system or anything can do >> 
+
+it can do something - go run sleep walk drive 
+
+it has some attributes - name ssn color race 
+
+
+car - drive stop brake light
+vin, color, ownername
+
+
+what a class can do is - functions of the class 
+
+what are the attributes/properites of the class - global variable
+
+a class can have two things >> methods and properties
+
+static: not part of any object, only part of the class
+
+static will not be copied to any object 
+from where we can use a function? 
+
+
+what is java programming library? 
+
+selenium setup 
+
+1. two jar files - selenium libraries 
+
+selenium-java 
+selenium-server-standlone 
+
+2. 
+browser - google chrome 
+browser driver file 
+
+C:\\Users\\Agile1Tech\\Desktop\\workspace-aug-2021\\drivers\\chromedriver.exe
+
+webdriver driver = new webdriver();
+
+webdriver driver = new chromedriver();
+
+
+Browser driver : 
+
+chromedriver 
+firefoxdriver
+
+programming libaraies : selenium 
+version 2.53 
+
+what is programming library, what is selenium? 
+
+classes - functions and properties 
+selenium is programming library 
+
+core java library , third party libaray 
+
+core java library - jdk 
+
+Scanner 
+system.out.println
+
+third party libary - anything which is not part of core-java 
+selenium
+TestNG
+cucumber
+rest-assured 
+
+proper way >> 
+
+
+
+
+what selenium can do and can't do? 
+
+interacting with the browser - brwoser automation 
+google chrome
+mozila firefox
+IE
+safari
+opera 
+
+can't do>> 
+anything that is outside of the brwoser
+
+Test case >> Test Script 
+
+Test case and Test scripts 
+
+Test case >> execution manually >> 20 test cases 
+Test script >> execution by running the code >> 1000 test cases
+
+90 percent of the application are browser based 
+
+web based - 
+window/mobile based - 
+
+test script - interact with the browser 
+
+Test report/result
+test suite
+compare expected and actual result 
+
+
+
+webelements / web objects 
+
+are components of web page that an user can interact - 
+
+text box - type something
+button - click 
+drop down - select something 
+link - click to go to new page 
+pop ups - java scripts , windows 
+frame - 
+
+step 1: finding the web element 
+
+step 2: interacting with the web element 
+
+chrome developer tool - 
+
+
+HTML - hypertext markup language 
+CSS - cascading style sheet 
+
+<input type="text" id="usernamereg-firstName" class="ureg-fname input-with-icon icon-name " autocomplete="given-name" name="firstName" placeholder="First&nbsp;name" aria-label="First&nbsp;name" value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:fname;slk:first-name;" aria-invalid="false">
+
+
+attributes and value 
+type  text
+id - usernamereg-firstName
+class
+autocomplete
+name - firstName
+
+
+
+text box - input
+button - button
+drop down - select 
+
+selenium supports these list of attributes 
+
+id
+name
+xpath >> compound attribute 
+css selector 
+
+linktext>> only the web element is a link
+partial link text >> only the web element is a link
+
+classname>> finding multiple web elements
+tagname >> finding multiple web elements
+
+WebElement - its a data type created in selenium library 
+
+data type means its a java class 
+
+check if the weblement is displayed in the page
+check if the webelemnt is enabled 
+check if the webelemnt is selected - drop down 
+
+how to read from the weblement 
+
+how to check if webelements are displayed, enabled or selected in the web page 
+
+
+
+
+
+
+
+
+Task: 
+
+step 1: Navigate to the page 
+http://automationpractice.com/index.php
+
+step 2: 
+click on the sign in button that navigates to a new page 
+
+step 3: 
+after being in the new page, read the title and url of the new page
+and print them in the console 
+
+step 4: 
+type any email in the email address text box under create an  account 
+
+step 5: 
+find if create an account button is enabled and read the text, print 
+the enable msg and the text in the console
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
