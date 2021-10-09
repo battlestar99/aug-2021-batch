@@ -1,0 +1,227 @@
+main method >> test scripts 
+
+optimize our test scripts: 
+
+drop down - 
+wait >> different type of wait
+locating tecniques >> how to locate web element and what is better way 
+
+page object model >> 
+Testing framework >> 
+
+Automated test script >> 
+
+application, user stories
+
+Test case >> test steps, pre-condigion, post condition, results, expected results vs actual resuls >> pass/fail 
+Test script >> goal of creating test script 
+regression testing 
+
+1. setup automation testing environement >> jdk, eclipse, github
+2. test scenerio: 
+
+user story >> 
+test plan >> 
+user story 1: user should be able to navigate to the saucedemo 
+login page and see the title as swag labs 
+
+test scenario: validate user can navigate to the saucedemo url 
+https://www.saucedemo.com/ and can see the title as "SWAG Labs"
+
+test case: 
+
+step 1: user navigate to https://www.saucedemo.com/
+step 2: user can see the title of the page "SWAG Labs"
+
+expected result: title of the page "SWAG Labs"
+actual result : 
+
+pass/fail 
+
+test script: 
+
+user story 2: login page should have useranem and password text box for user and login button writte as "Login"
+
+
+wait functions: 
+
+implicit wait: it makes sure all the weblements of the page is loaded
+after you navigate to a page
+
+10 seconds
+
+home - 4 seconds >> it will start exectuing next line
+work - 1 second >> it will start exectuing next line 
+
+explicit wait: works for only one weblement - if the code needs to make sure specific one weblement is loaded in the page then we can 
+use explicit wait 
+
+WebDriverwait wait = new webdriverwait(driver, 5) 
+
+webelement login = wait.expectedconditions.visbilityofelement(By.xpath(xpath);
+
+sign up page >> 
+college 
+
+Hidden web element >> DOM >> document object model 
+
+fluent wait
+
+
+
+
+
+implicit wait vs explicit wait 
+
+locating tecniques: 
+
+applicable for any weblements
+id = a
+name
+xpath
+css selector 
+
+only applicable for links, anchor tag (a tag)
+linktext = help
+partiallink
+
+it is used for finding webelements 
+findelements instead of findelement
+classname
+tagname 
+
+driver.findelements(By.tagname("input")
+
+attributes = values 
+
+driver.findelement(By.id("a"));
+
+id=a >> textbox
+id = a >> link
+
+we can not use the id 
+
+1. finding weblement or finding locating tecniques 
+
+
+which locating tecniques you should use in your code? 
+
+use something that is unique 
+
+specifically which locating tecniques: 
+
+id - 
+
+first name text box 
+<input type="text" id="usernamereg" class="ureg-fname input-with-icon icon-name " autocomplete="given-name" name="name" placeholder="First&nbsp;name" aria-label="First&nbsp;name" value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:fname;slk:first-name;">
+
+id=usernamereg
+name = Name
+xpath = //input[@id="usernamereg"]
+csselector 
+
+last name text box
+<input type="text" id="usernamereg" class="ureg-fname input-with-icon icon-name " autocomplete="given-name" name="Name" placeholder="First&nbsp;name" aria-label="First&nbsp;name" value="" maxlength="32" aria-required="true" data-rapid-tracking="true" data-ylk="elm:input;elmt:fname;slk:first-name;"
+valueofElement = "lastname">
+
+how the xpath is actually created? 
+structure of xpath 
+modified xpath
+//tagname[@attribute='value']
+
+//input[@id='usernamereg']
+
+//input[@aria-label="First&nbsp;name" ]
+
+//input[@valueofElement ="lastname"]
+
+talk with your developer : 
+
+give me an attribute that gives me unique value for each weblement 
+
+relative xpath >> relative xpaths are created from exisiting html code 
+
+step 1 : no unique id or name 
+step 2: ask for unique id or name 
+step 3: ask for any unique attrbute with unique value >> so you can create your own xpath >> when you create your own xpath
+its called modified xpath 
+
+step 4: absolute xpath 
+
+/html/body/div[1]/div[2]/div[1]/div/form/fieldset/div/div[1]/input
+
+css selector 
+
+tagname[attribute='value']
+
+input[id='usernamereg']
+
+what are the difference between // and / 
+
+// represents relative xpath
+/ represent absolute xpath 
+
+id or name or xpath
+linketext or partiallinktext 
+
+1. if your code fails because of wrong locating tecnques 
+
+nosuchelementexception 
+
+id = abcxyz
+
+abcxy
+
+assertionexception >> application has defect 
+
+2. what if you have to run code in different browser
+
+google chrome brwoser 
+
+internetxplore
+mozila firefox 
+
+System.setProperty("webdriver.ie.driver","C:\\Users\\Agile1Tech\\Desktop\\workspace-aug-2021\\drivers\\iedriver.exe");	
+		
+WebDriver driver = new InternetExplorerDriver();
+
+
+
+
+
+Automation testing framework: 
+
+
+car c = new car();
+
+Scanner sc = new Scanner(System.in);
+
+constructor 
+
+Select ddMonth = new Select(webelement);
+
+
+java constructor: 
+
+constructor is not method, constructor gets executed as soon as an 
+object of the class is created 
+
+WebDriver driver = new Chromedriver();
+
+WebDriver driver1 = new Chromedriver();
+
+multiple constructor in the class >> by having different parameters 
+
+constructor overloading 
+
+Automation Testing Framework: 
+
+
+
+
+
+
+
+
+
+
