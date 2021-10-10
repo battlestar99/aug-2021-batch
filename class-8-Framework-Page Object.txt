@@ -1,0 +1,99 @@
+wait - 
+locating tecniques - 
+drop down menu - 
+
+constructor - 
+
+Testing Framework: Test data
+Locating tecniques 
+
+TestNG , Cucumber = Testing framework/testing library 
+
+object driven testing framework: 
+seperate web elements or web objects from the test script
+
+data driven testing framework: 
+seperate test data from the test scripts 
+excel, xml, cucumber feature
+
+keyword driven testing framework: 
+any other  data except test data seperate from test scripts - 
+
+hybrid framework: 
+object driven + data driven 
+object driven framework - page object model class 
+
+for each webpage - you have to have one page object model class
+
+10 webpage - 10 page object model
+5- 5 page object model class
+
+User story: user should be able to login with valid crdentials 
+
+user story: user should not be able to login with invalid crdentials 
+
+user name can not be more than 10 characters 
+
+20 web elements >> 10 times 
+
+200 times 
+
+50 times >> 
+
+9 times 
+
+for each web page >> one page object model class
+
+
+public WebElement getUserName(){
+
+driver.findelement 
+return webelemnt
+
+}
+
+any non runanble class is also a datatype - reference data type 
+
+int x;
+
+String name; 
+
+webdriver driver; 
+
+webelement username; 
+
+select ddmonth; 
+
+
+int x; // declaration of a variable 
+
+x=23; // initializaiont of a variable 
+
+objects 
+
+webdriver driver; // declariong a driver variable which webdriver type
+
+driver = new chromedriver; // initiazliation of any object 
+
+project structure: 
+
+one package for test scripts - com.saucedemo.tests
+ont package for page object model classes - com.saucedemo.pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
