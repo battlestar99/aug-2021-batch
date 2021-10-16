@@ -81,6 +81,24 @@ one package for test scripts - com.saucedemo.tests
 ont package for page object model classes - com.saucedemo.pages
 
 
+test1
+test2
+test3
+test4
+test5
+test6 
+
+
+smoke testing >> test6
+regression testing >> test1 to test6
+Uat testing >> test5 
+
+TestNG setup: 
+
+1. testng eclipse plugin >> plugin will provide some functionalities for 
+running tests in eclipse 
+
+2. testNG library - jar file 
 
 
 
