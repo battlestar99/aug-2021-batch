@@ -1,0 +1,95 @@
+TestNG - Testing Library - how to use, how to create a framework 
+using TestNG 
+
+TestScript >> main method of java 
+
+selenium >> interact with WEB browser / Web UI 
+
+web UI testing >> selenium library 
+
+Automated test script >> 
+
+1. organize the test scripts in a way so it is more maintainable, it specify
+the test portion 
+
+2. create pass/fail scenario 
+
+3. generate report 
+
+4. data driven testing 
+
+5. prioritize our tests, group our test, parameterize the tests 
+
+6. test suite 
+
+TestNG >> Test Next generation 
+
+Cucumber >> Behavour driven development ( BDD ) 
+
+web application testing 
+
+Java + selenium + (TestNG/Cucumber)
+
+Testing template >> TestNG , Cucumber 
+
+
+
+
+
+
+
+
+
+Test >> Test script, Automated test case /Test case 
+
+pre-condition >> open a browser 
+Test Steps >> relate with the requirements, expected and actual results 
+post - condition >> closing the browser 
+Test report >> why test fails
+
+Test suite >> 300 test scripts >> regression test >> regression test suite 
+
+TestNG >> organized using specific annotations
+
+	@BeforeTest
+ 	@AfterTest
+	@Test
+
+	@BeforeMethod
+	@AfterMethod  
+
+
+sequence of annotations are: 
+@BeforeSuite
+@BeforeClass
+@Beforetest >> executes before all the tests
+@BeforeMethod
+@Test
+@AfterMethod
+@BeforeMethod
+@Test
+@AfterMethod
+@Aftertest << executes after all the tests 
+@AfterClass
+@AfterSuite
+
+
+@BeforeMethod >> executes before each test
+@AfterMethod >> executes after each test 
+
+
+@Beforetest
+@Test
+@Aftertest 
+
+@BeforeMethod
+@AfterMethod
+
+
+
+
+
+
+
+
+
