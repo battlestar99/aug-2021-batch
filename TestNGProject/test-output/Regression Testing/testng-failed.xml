@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing]">
+  <test name="Regression Tests(failed)">
+    <classes>
+      <class name="com.saucedemo.Test.validateElementsLoginPage">
+        <methods>
+          <include name="setupTest"/>
+          <include name="quitTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateElementsLoginPage -->
+      <class name="com.saucedemo.Test.validateLoginPage">
+        <methods>
+          <include name="quitTest"/>
+          <include name="validateWebTitle"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateLoginPage -->
+      <class name="com.saucedemo.Test.validateLoginData">
+        <methods>
+          <include name="validatglitchUserLogin"/>
+          <include name="beforeEachTest"/>
+          <include name="setupTest"/>
+          <include name="quitTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateLoginData -->
+      <class name="com.saucedemo.Test.validateEndToEndProductbuy">
+        <methods>
+          <include name="setupTest"/>
+          <include name="quitTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateEndToEndProductbuy -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->

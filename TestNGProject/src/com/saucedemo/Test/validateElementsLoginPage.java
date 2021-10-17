@@ -34,7 +34,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\Au
 		
 	}
 	
-	@Test(priority=0)
+	@Test
 	
 	public void validateLoginElementsDisplay() {
 		
@@ -56,7 +56,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\Au
 	
 	
 	
-@Test(priority=01)
+@Test(dependsOnMethods={"validateLoginElementsDisplay"})
 	
 	public void validateLoginElementsEnabled() {
 		

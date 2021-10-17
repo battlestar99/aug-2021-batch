@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Data Driven Testing for Yahoo">
+
+<test name = "User SignUp data set - 1">
+
+<parameter name="fName" value="mike"></parameter>
+<parameter name="LName" value="rand"></parameter>
+<parameter name="UName" value="mikerand347698"></parameter>
+<parameter name="Ypassword" value="dfsafsadf"></parameter>
+<classes> 
+
+<class name="yahooTest.yahooLoginDataTest"></class>
+
+
+</classes>
+
+</test>
+
+
+<test name = "User SignUp data set - 2">
+
+<parameter name="fName" value="john"></parameter>
+<parameter name="LName" value="stamos"></parameter>
+<parameter name="UName" value="stamosjohn347698"></parameter>
+<parameter name="Ypassword" value="dfsafsadf"></parameter>
+<classes> 
+
+<class name="yahooTest.yahooLoginDataTest"></class>
+
+
+</classes>
+
+</test>
+
+<test name = "User SignUp data set - 3">
+
+<parameter name="fName" value="adam"></parameter>
+<parameter name="LName" value="grant"></parameter>
+<parameter name="UName" value="adamGrant3483"></parameter>
+<parameter name="Ypassword" value="dfsafsadf"></parameter>
+<classes> 
+
+<class name="yahooTest.yahooLoginDataTest"></class>
+
+
+</classes>
+
+</test>
+
+<test name = "User SignUp data set - 4">
+
+<parameter name="fName" value="Shawn"></parameter>
+<parameter name="LName" value="thrope"></parameter>
+<parameter name="UName" value="adfadt3483"></parameter>
+<parameter name="Ypassword" value="dfsafsadf"></parameter>
+<classes> 
+
+<class name="yahooTest.yahooLoginDataTest"></class>
+
+
+</classes>
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>

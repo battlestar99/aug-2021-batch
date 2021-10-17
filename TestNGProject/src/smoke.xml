@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Smoke testing">
+
+<test name = "release 4.32 smoke tests">
+
+<classes> 
+
+
+<class name="com.saucedemo.Test.validateLoginData"></class>
+<class name="com.saucedemo.Test.validateEndToEndProductbuy"></class>
+<class name="com.saucedemo.Test.validateLoginPage"></class>
+
+
+</classes>
+
+
+
+
+</test>
+
+</suite>

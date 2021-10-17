@@ -33,13 +33,6 @@ Java + selenium + (TestNG/Cucumber)
 Testing template >> TestNG , Cucumber 
 
 
-
-
-
-
-
-
-
 Test >> Test script, Automated test case /Test case 
 
 pre-condition >> open a browser 
@@ -78,12 +71,133 @@ sequence of annotations are:
 @AfterMethod >> executes after each test 
 
 
-@Beforetest
+@Beforetest >> pre condition
 @Test
-@Aftertest 
+@Aftertest >> after test
 
 @BeforeMethod
 @AfterMethod
+
+Assertion: set of functions those are used to create pass/fail scenario 
+in the test 
+
+expected result 
+actual result 
+
+compare expected with actual 
+
+expected comes from requirements 
+actual comes from the execution of the test 
+
+is same >> pass
+is not same >> fail
+
+100 test scripts >> you automaed 100 test cases 
+
+minium 100 test case 
+500 test cases 
+
+
+
+TestNG 
+
+1. Organizing your test scripts >> annotations 
+beforetest, test, aftertest
+beforemethod, aftermethod 
+
+@Test >> alphabatical, 
+priority >> 
+
+2. assertion >> create pass/fail scenario 
+assertEquals ( expected resule, actual result) 
+
+multiple assertion in one Test @Test >> test scenario, test case 
+
+Hard assertion >> in the middle of your @Test
+
+soft assertion >> 
+
+3. report generation >> TestNG generates a report 
+
+HTML file , emailablereport.html
+
+100 tests >> 5 of them failed 
+
+4. test suite >> set of test cases >>100 test cases
+500 test cases 
+XML >> extensible markup language 
+
+5. data driven testing >> data driven testing framework 
+
+test data can not be in test scripts 
+
+6. others stuff >> depends on method,
+parallel, cross browser testing, reporter
+
+
+Test Suite: 
+
+collection of test cases 
+400 test cases 
+smoke testing suite >> 50 of them smoke testing , major or important
+
+regression testing >> 400 test case 
+
+sanity testing >>  10 test cases 
+
+UAT testing >> 30 test cases 
+
+release 
+
+2 new functionalities
+3 enhancement
+10 bug fixes
+
+2 new functionalites , 3 enhancements 
+
+UX Tester 
+
+java, selenium, testNG, cucumber 
+
+katalon studio, cypress, protractor 
+
+XML files work on different tags for specific system 
+
+<suite>               </suite>
+<class>              </class>
+
+
+<input id="username" name = "user_name" /> 
+
+fName","LName","UName","Ypassword
+
+
+1. dependsOnmethod >> used to make one test dependent on another
+
+2. reporter >> printing anything in the html report 
+
+2. parallel testing >> is possible but not recommended if we run 
+more than 10 browser
+
+3. cross browser testing >> testing the same test case
+
+chrome
+mozila
+IE
+
+20 test scripts >> 3 browsers 
+
+DataProvider
+
+
+
+
+
+
+
+
+
+
 
 
 

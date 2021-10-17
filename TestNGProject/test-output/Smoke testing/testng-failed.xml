@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke testing]">
+  <test name="release 4.32 smoke tests(failed)">
+    <classes>
+      <class name="com.saucedemo.Test.validateLoginPage">
+        <methods>
+          <include name="quitTest"/>
+          <include name="validateWebTitle"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateLoginPage -->
+      <class name="com.saucedemo.Test.validateLoginData">
+        <methods>
+          <include name="validatglitchUserLogin"/>
+          <include name="beforeEachTest"/>
+          <include name="setupTest"/>
+          <include name="quitTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateLoginData -->
+      <class name="com.saucedemo.Test.validateEndToEndProductbuy">
+        <methods>
+          <include name="setupTest"/>
+          <include name="quitTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateEndToEndProductbuy -->
+    </classes>
+  </test> <!-- release 4.32 smoke tests(failed) -->
+</suite> <!-- Failed suite [Smoke testing] -->

@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -84,6 +85,7 @@ checkOutPage checkout;
 		
 		String actualUrl = driver.getCurrentUrl(); 
 		
+		Reporter.log("End to End Testing Scneario");
 		Assert.assertEquals(actualUrl, expectedUrl);
 		
 		

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Cross Browser Testing">
+
+<test name = "Chrome Test">
+
+<parameter name="Browser" value="chrome"></parameter>
+
+
+<classes> 
+
+<class name="com.saucedemo.Test.validateLoginTestData"></class>
+
+
+</classes>
+
+</test>
+
+<test name = "Mozila Test">
+
+<parameter name="Browser" value="mozila"></parameter>
+
+
+<classes> 
+
+<class name="com.saucedemo.Test.validateLoginTestData"></class>
+
+
+</classes>
+
+</test>
+
+<test name = "Mozila Test">
+
+<parameter name="Browser" value="IEBrowser"></parameter>
+
+
+<classes> 
+
+<class name="com.saucedemo.Test.validateLoginTestData"></class>
+
+
+</classes>
+
+</test>
+
+</suite>

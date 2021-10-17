@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Testing for login Module]">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="username" value="performance_glitch_user"/>
+  <test name="Locked out user Test(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="locked_out_user"/>
+    <classes>
+      <class name="com.saucedemo.Test.validateLoginTestData">
+        <methods>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="validateLoginData" invocation-numbers="0"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateLoginTestData -->
+    </classes>
+  </test> <!-- Locked out user Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Testing for login Module] -->

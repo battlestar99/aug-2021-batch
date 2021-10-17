@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression Testing">
+
+<test name = "Regression Tests">
+
+<classes> 
+
+
+<class name="com.saucedemo.Test.validateLoginData"></class>
+<class name="com.saucedemo.Test.validateEndToEndProductbuy"></class>
+<class name="com.saucedemo.Test.validateLoginPage"></class>
+<class name="com.saucedemo.Test.validateElementsLoginPage"></class>
+
+</classes>
+
+
+
+
+</test>
+
+</suite>

@@ -1,25 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11743" started-at="2021-10-16T17:46:23Z" finished-at="2021-10-16T17:46:34Z">
+  <suite name="Data Driven Testing for login Module" duration-ms="11942" started-at="2021-10-17T17:22:28Z" finished-at="2021-10-17T17:22:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11743" started-at="2021-10-16T17:46:23Z" finished-at="2021-10-16T17:46:34Z">
-      <class name="com.saucedemo.Test.validateEndToEndProductbuy">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.saucedemo.Test.validateEndToEndProductbuy@75f32542]" name="setupTest" is-config="true" duration-ms="1772" started-at="2021-10-16T13:46:23Z" finished-at="2021-10-16T13:46:24Z">
+    <test name="Locked out user Test" duration-ms="6927" started-at="2021-10-17T17:22:28Z" finished-at="2021-10-17T17:22:35Z">
+      <class name="com.saucedemo.Test.validateLoginTestData">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.saucedemo.Test.validateLoginTestData@5c7fa833]" name="setupTest" is-config="true" duration-ms="3010" started-at="2021-10-17T13:22:28Z" finished-at="2021-10-17T13:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="endToEnd()[pri:0, instance:com.saucedemo.Test.validateEndToEndProductbuy@75f32542]" name="endToEnd" duration-ms="9057" started-at="2021-10-16T13:46:24Z" finished-at="2021-10-16T13:46:33Z">
+        <test-method status="PASS" signature="validateLoginData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.Test.validateLoginTestData@5c7fa833]" name="validateLoginData" duration-ms="2710" started-at="2021-10-17T13:22:31Z" finished-at="2021-10-17T13:22:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endToEnd -->
-        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.saucedemo.Test.validateEndToEndProductbuy@75f32542]" name="quitTest" is-config="true" duration-ms="901" started-at="2021-10-16T13:46:33Z" finished-at="2021-10-16T13:46:34Z">
+        </test-method> <!-- validateLoginData -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.saucedemo.Test.validateLoginTestData@5c7fa833]" name="quitTest" is-config="true" duration-ms="1190" started-at="2021-10-17T13:22:33Z" finished-at="2021-10-17T13:22:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitTest -->
-      </class> <!-- com.saucedemo.Test.validateEndToEndProductbuy -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.saucedemo.Test.validateLoginTestData -->
+    </test> <!-- Locked out user Test -->
+    <test name="Problem user Test" duration-ms="6945" started-at="2021-10-17T17:22:28Z" finished-at="2021-10-17T17:22:35Z">
+      <class name="com.saucedemo.Test.validateLoginTestData">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.saucedemo.Test.validateLoginTestData@51565ec2]" name="setupTest" is-config="true" duration-ms="3059" started-at="2021-10-17T13:22:28Z" finished-at="2021-10-17T13:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="validateLoginData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.Test.validateLoginTestData@51565ec2]" name="validateLoginData" duration-ms="2596" started-at="2021-10-17T13:22:31Z" finished-at="2021-10-17T13:22:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginData -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.saucedemo.Test.validateLoginTestData@51565ec2]" name="quitTest" is-config="true" duration-ms="1282" started-at="2021-10-17T13:22:33Z" finished-at="2021-10-17T13:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- com.saucedemo.Test.validateLoginTestData -->
+    </test> <!-- Problem user Test -->
+    <test name="Standard user Test" duration-ms="7133" started-at="2021-10-17T17:22:28Z" finished-at="2021-10-17T17:22:35Z">
+      <class name="com.saucedemo.Test.validateLoginTestData">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.saucedemo.Test.validateLoginTestData@7c16905e]" name="setupTest" is-config="true" duration-ms="3259" started-at="2021-10-17T13:22:28Z" finished-at="2021-10-17T13:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="validateLoginData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.Test.validateLoginTestData@7c16905e]" name="validateLoginData" duration-ms="3062" started-at="2021-10-17T13:22:31Z" finished-at="2021-10-17T13:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginData -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.saucedemo.Test.validateLoginTestData@7c16905e]" name="quitTest" is-config="true" duration-ms="807" started-at="2021-10-17T13:22:34Z" finished-at="2021-10-17T13:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- com.saucedemo.Test.validateLoginTestData -->
+    </test> <!-- Standard user Test -->
+    <test name="Performance glitch user Test" duration-ms="11942" started-at="2021-10-17T17:22:28Z" finished-at="2021-10-17T17:22:40Z">
+      <class name="com.saucedemo.Test.validateLoginTestData">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.saucedemo.Test.validateLoginTestData@215be6bb]" name="setupTest" is-config="true" duration-ms="3259" started-at="2021-10-17T13:22:28Z" finished-at="2021-10-17T13:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="validateLoginData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.Test.validateLoginTestData@215be6bb]" name="validateLoginData" duration-ms="7906" started-at="2021-10-17T13:22:31Z" finished-at="2021-10-17T13:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginData -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.saucedemo.Test.validateLoginTestData@215be6bb]" name="quitTest" is-config="true" duration-ms="772" started-at="2021-10-17T13:22:39Z" finished-at="2021-10-17T13:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- com.saucedemo.Test.validateLoginTestData -->
+    </test> <!-- Performance glitch user Test -->
+  </suite> <!-- Data Driven Testing for login Module -->
 </testng-results>
