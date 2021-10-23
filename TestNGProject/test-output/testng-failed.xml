@@ -1,23 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Data Driven Testing for Yahoo]">
-  <parameter name="Ypassword" value="dfsafsadf"/>
-  <parameter name="UName" value="mikerand347698"/>
-  <parameter name="fName" value="mike"/>
-  <parameter name="LName" value="rand"/>
-  <test name="User Login data set - 1(failed)">
-    <parameter name="Ypassword" value="dfsafsadf"/>
-    <parameter name="UName" value="mikerand347698"/>
-    <parameter name="fName" value="mike"/>
-    <parameter name="LName" value="rand"/>
+<suite name="Failed suite [Data Driven Testing for login Module]" parallel="tests">
+  <parameter name="expectedUrl" value="https://www.saucedemo.com/"/>
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="username" value="locked_out_user"/>
+  <test name="Performance glitch user Test(failed)" parallel="tests">
+    <parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="performance_glitch_user"/>
     <classes>
-      <class name="yahooTest.yahooLoginDataTest">
+      <class name="com.saucedemo.Test.validateLoginTestData">
         <methods>
           <include name="quitTest"/>
-          <include name="setupTest"/>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
           <include name="validateLoginData" invocation-numbers="0"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
         </methods>
-      </class> <!-- yahooTest.yahooLoginDataTest -->
+      </class> <!-- com.saucedemo.Test.validateLoginTestData -->
     </classes>
-  </test> <!-- User Login data set - 1(failed) -->
-</suite> <!-- Failed suite [Data Driven Testing for Yahoo] -->
+  </test> <!-- Performance glitch user Test(failed) -->
+  <test name="Standard user Test(failed)" parallel="tests">
+    <parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="standard_user"/>
+    <classes>
+      <class name="com.saucedemo.Test.validateLoginTestData">
+        <methods>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="validateLoginData" invocation-numbers="0"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateLoginTestData -->
+    </classes>
+  </test> <!-- Standard user Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Testing for login Module] -->

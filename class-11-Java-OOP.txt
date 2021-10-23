@@ -1,0 +1,230 @@
+Object Oriented Programming Using Java - 
+
+class >> 
+
+traditional - main method - we can run the code 
+
+OOP - prototype of design of a sytem
+
+you design a car >> 
+
+
+object >> implementing the design creates an object 
+
+reference variable 
+
+int x; 
+
+classname obj; 
+
+object and reference variables are the same thing 
+
+
+ask you to create a bank account software? 
+
+designing a class >> any desing has only two features 
+
+attributes of the design >> value of properties we need to store
+action of the design >> what the object will be able to do 
+
+bankaccount
+
+attributes of bankaccount, properties or global variable
+amountofmoney
+nameofaccount
+accountnumber
+ssnNumber
+emailaddress 
+
+what the account can do 
+method/functions 
+
+deposit
+withdraw
+transfer
+updateaccount
+talkwithcustomer
+
+
+
+Object >> is an implementation of class
+gets all non-static properties and methos 
+
+static >> to make some properties and methods only to be part of the class
+
+assert.assertequals
+
+driver.findelament
+
+class - design or prototype 
+
+inside a class : 
+
+prorperites >> global variable
+methos >> functions or methods object can use 
+
+key point 1: static , its not part of the object 
+
+key point 2: constructor: is created to execute code when the object is create , multiple constructor is possible with different parametes 
+constructor overloading 
+
+key point 3: method overloading >> two or multiple methos with different
+parameters 
+
+key point 4: this keyword 
+when a local variable and global variable has same name, you want to
+refer to the global one , then you use the this keyword 
+
+Relationship between classes: 
+inheritance: one class can inherit the properties and methos of other class
+
+parent class >> child class 
+super class >> sub class 
+
+sub class inherits everything ( properties and methods) from super class
+
+super class will not intherit anything from sub class
+
+super class and sub class has same method >> sub class object has to use its own method 
+
+>> method overriding 
+
+super keyword: used by the sub class to access super class constuctors or methods 
+
+
+
+
+
+
+
+
+
+
+bankaccount class
+
+checking
+saving
+mortage 
+
+abstract class : you will not be able to use any properties of method 
+of the class 
+when you make any class abstract - you can not create an object of the class, 
+you use them through the subclass or child class 
+
+automation testing scenario : 
+
+
+
+
+
+page of model 
+abstract class baseclass 
+
+getspecial
+getneproduct
+getbestsellers
+
+
+
+homepage extends baseclass
+
+
+
+chekcout extends basesclass
+
+
+
+product extends baseclass 
+
+
+test script - 
+
+beforetest()
+
+
+baseTestscripts()
+
+setupchromeBrowser(){
+setupproperty
+openbfowser
+implicitwait
+gotourl 
+}
+
+closeBrowser(){
+
+}
+
+validatesignup extends baseclass()
+
+
+
+
+
+
+inheritance 
+abstract class 
+
+interface >> webdriver is actually an interface
+its not a class >> its an outline of class 
+
+car c = new car();
+
+WebDriver driver = new chromeddriver()
+webdriver driver = new firefoxdriver()
+
+WebDriver is an interface: 
+
+chromedriver
+firefoxdriver
+edgedriver 
+safaridriver
+
+
+access modifier >> public, private, protected 
+
+
+
+
+interface: is a way of creating outline for set of classes
+it doesnt have any implemented methods / all methods are unimplemented
+
+these unimplemented methods are called abstract methods 
+
+difference between interface and abstract class: 
+
+interface cant have implemnted methods
+abstract class can have impmented methods 
+
+interface : you can create an object of an interface
+abstract class: you can not
+
+ create an object of the abstract class
+
+abstract methods are part of interface and not part of abstract class 
+
+to use abstract class >> need to create sub class or child class of the abstract class and create object of the sub classes
+
+access modifier 
+
+1. definition of the different compoenents of oop 
+
+2. some of the implementation in automation testing 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

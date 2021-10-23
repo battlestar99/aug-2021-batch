@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Data Driven Testing for login Module]">
+<suite name="Failed suite [Data Driven Testing for login Module]" parallel="tests">
+  <parameter name="expectedUrl" value="https://www.saucedemo.com/"/>
   <parameter name="password" value="secret_sauce"/>
-  <parameter name="username" value="performance_glitch_user"/>
-  <test name="Locked out user Test(failed)">
+  <parameter name="username" value="locked_out_user"/>
+  <test name="Performance glitch user Test(failed)" parallel="tests">
+    <parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
     <parameter name="password" value="secret_sauce"/>
-    <parameter name="username" value="locked_out_user"/>
+    <parameter name="username" value="performance_glitch_user"/>
     <classes>
       <class name="com.saucedemo.Test.validateLoginTestData">
         <methods>
@@ -21,5 +23,25 @@
         </methods>
       </class> <!-- com.saucedemo.Test.validateLoginTestData -->
     </classes>
-  </test> <!-- Locked out user Test(failed) -->
+  </test> <!-- Performance glitch user Test(failed) -->
+  <test name="Standard user Test(failed)" parallel="tests">
+    <parameter name="expectedUrl" value="https://www.saucedemo.com/inventory.html"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="standard_user"/>
+    <classes>
+      <class name="com.saucedemo.Test.validateLoginTestData">
+        <methods>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="quitTest"/>
+          <include name="validateLoginData" invocation-numbers="0"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.saucedemo.Test.validateLoginTestData -->
+    </classes>
+  </test> <!-- Standard user Test(failed) -->
 </suite> <!-- Failed suite [Data Driven Testing for login Module] -->

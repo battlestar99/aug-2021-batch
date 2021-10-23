@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Data_Driven_Testing_for_login_Module">
-              <span class="suite-name border-passed">Data Driven Testing for login Module</span>
+              <span class="suite-name border-failed">Data Driven Testing for login Module</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Data_Driven_Testing_for_login_Module" class="hide-methods failed suite-Data_Driven_Testing_for_login_Module"> (hide)</a> <!-- hide-methods failed suite-Data_Driven_Testing_for_login_Module -->
+                      <a href="#" panel-name="suite-Data_Driven_Testing_for_login_Module" class="show-methods failed suite-Data_Driven_Testing_for_login_Module"> (show)</a> <!-- show-methods failed suite-Data_Driven_Testing_for_login_Module -->
+                    </span>
+                    <div class="method-list-content failed suite-Data_Driven_Testing_for_login_Module">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Testing_for_login_Module" title="com.saucedemo.Test.validateLoginTestData" hash-for-method="validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Testing_for_login_Module" title="com.saucedemo.Test.validateLoginTestData" hash-for-method="validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Data_Driven_Testing_for_login_Module -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,16 +128,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Testing_for_login_Module" title="com.saucedemo.Test.validateLoginTestData" hash-for-method="validateLoginData(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLoginData(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Testing_for_login_Module" title="com.saucedemo.Test.validateLoginTestData" hash-for-method="validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Testing_for_login_Module" title="com.saucedemo.Test.validateLoginTestData" hash-for-method="validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)">validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Data_Driven_Testing_for_login_Module -->
                   </li>
                 </ul>
@@ -131,6 +140,73 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Data_Driven_Testing_for_login_Module" class="panel Data_Driven_Testing_for_login_Module">
+          <div class="suite-Data_Driven_Testing_for_login_Module-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.saucedemo.Test.validateLoginTestData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
+                  </a> <!-- validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
+                  <span class="method-name">validateLoginData</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=94.0.4606.81)
+  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;DESKTOP-E69K95O&apos;, ip: &apos;192.168.5.67&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:3903}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}), userDataDir=C:\Users\AGILE1~1\AppData\Local\Temp\scoped_dir4072_1954750214}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=94.0.4606.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: b2cbbbbf4c013ec23b139197c259476c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:326)
+	at com.saucedemo.Test.validateLoginTestData.validateLoginData(validateLoginTestData.java:53)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
+                  </a> <!-- validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
+                  <span class="method-name">validateLoginData</span>
+                  <span class="parameters">(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=94.0.4606.81)
+  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.16 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;DESKTOP-E69K95O&apos;, ip: &apos;192.168.5.67&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:3904}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}), userDataDir=C:\Users\AGILE1~1\AppData\Local\Temp\scoped_dir5068_146660480}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=94.0.4606.81, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: be9c4d00dcf74e2b9cdb180839b2aee2
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.saucedemo.Test.validateLoginTestData.validateLoginData(validateLoginTestData.java:49)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Testing_for_login_Module-class-failed -->
           <div class="suite-Data_Driven_Testing_for_login_Module-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -151,22 +227,6 @@
                   </a> <!-- validateLoginData(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
                   <span class="method-name">validateLoginData</span>
                   <span class="parameters">(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
-                  </a> <!-- validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
-                  <span class="method-name">validateLoginData</span>
-                  <span class="parameters">(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
-                  </a> <!-- validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
-                  <span class="method-name">validateLoginData</span>
-                  <span class="parameters">(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -263,24 +323,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateLoginData')
 data.setCell(0, 2, 'com.saucedemo.Test.validateLoginTestData')
-data.setCell(0, 3, 7906);
+data.setCell(0, 3, 6503);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validateLoginData')
 data.setCell(1, 2, 'com.saucedemo.Test.validateLoginTestData')
-data.setCell(1, 3, 3062);
+data.setCell(1, 3, 3532);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateLoginData')
 data.setCell(2, 2, 'com.saucedemo.Test.validateLoginTestData')
-data.setCell(2, 3, 2710);
+data.setCell(2, 3, 2948);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateLoginData')
 data.setCell(3, 2, 'com.saucedemo.Test.validateLoginTestData')
-data.setCell(3, 3, 2596);
+data.setCell(3, 3, 2875);
 window.suiteTableData['Data_Driven_Testing_for_login_Module']= { tableData: data, tableDiv: 'times-div-Data_Driven_Testing_for_login_Module'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-Data_Driven_Testing_for_login_Module">
               </div> <!-- times-div-Data_Driven_Testing_for_login_Module -->
             </div> <!-- times-div -->
@@ -324,36 +384,40 @@ return data;
                 <span class="method-start">1 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                <span class="method-start">3338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                <span class="method-start">3543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">validateLoginData(locked_out_user, secret_sauce, https://www.saucedemo.com/)</span>
-                <span class="method-start">3021 ms</span>
+                <span class="method-start">3566 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateLoginData(problem_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">3061 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateLoginData(performance_glitch_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">3260 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateLoginData(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
-                <span class="method-start">3260 ms</span>
+                <span class="method-start">3643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quitTest</span>
-                <span class="method-start">5660 ms</span>
+                <span class="method-start">6444 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">quitTest</span>
-                <span class="method-start">5734 ms</span>
+                <span class="method-start">6593 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">quitTest</span>
-                <span class="method-start">6323 ms</span>
+                <span class="method-start">7087 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">quitTest</span>
-                <span class="method-start">11167 ms</span>
+                <span class="method-start">9844 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
