@@ -93,13 +93,6 @@ super keyword: used by the sub class to access super class constuctors or method
 
 
 
-
-
-
-
-
-
-
 bankaccount class
 
 checking
@@ -209,8 +202,130 @@ access modifier
 
 1. definition of the different compoenents of oop 
 
+
 2. some of the implementation in automation testing 
 
+brief + review of OOP 
+
+class and object - properties and methods 
+properties >> global variable
+methods >> block of code object can execute 
+
+object >> properties , methods 
+
+static >> its not part of the object, only part of the class
+
+constructor >> to setup initial value of global variable
+
+webdriver driver = new chromedriver(); 
+
+constructor overloading >> multiple constructors, different parameters
+method overloading >> same methods, different parameters 
+
+this keyword is used to refer global variable 
+
+happening inside one class design 
+
+-----------------------------------------------------------------------------------------
+how we can make relationship between multiple classes
+
+inheritance >> super class and sub class
+
+abstract car - start() 
+honda extends car - start()
+accord extends honda 
+
+parent class , child class 
+
+child class >> parent class + child class
+
+grandchild >> parent class + child class + grand child 
+
+method overriding >> child class method has to use its own method by 
+overriding the parent's method 
+
+super
+
+abstract class >> has implemented methods and properties 
+
+can not create and object of the abstract class 
+
+interface: 
+
+outline of classes 
+interface 
+has unimplemented methods >> abstract methods
+
+class will implement the method 
+
+webdriver is an interface
+chormedriver is the class
+firefoxdriver is the class >> is created by the creator of selenium
+thoughtworks
+iedriver is class 
+
+abstract vs interface  
+
+
+access modifier - who can access methods of properties 
+properties or method 
+
+inside a class 
+outside of the class but inside the package
+outside of the class, outside of the package
+
+
+
+
+
+
+
+public - accessible inside the class, package and outside of the package
+protected - acceissble inside the class, package but not outside of package
+no modifier - protected - you can access from the same class and same 
+package 
+private - inside the class 
+
+
+OOP definitions - Features
+
+4 features of OOP - 
+
+abstraction - making any methods or properties private, abstract class
+encapsulation - data and action 
+properties and methods in the same class
+inheritance - the ability of sharing properties or methods through
+super and subclass 
+polymorphsim - the different of any object 
+method overloading , constructor overloading 
+
+car 
+honda extends car
+accord extends honda 
+
+accord c = new accord(); 
+
+c is accrod
+c is also honda
+c is also car 
+
+
+
+exception 
+
+error in the code >> syntax error >> compilation error 
+
+exception >> no syntax error >> run time error 
+
+no such element exception >> 
+null pointer exception >> 
+
+exception handling >> 
+try, catch block 
+
+throws exception 
+
+code organization using base class or implementing the idea about 	OOP 
 
 
 

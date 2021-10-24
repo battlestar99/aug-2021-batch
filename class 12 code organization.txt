@@ -1,0 +1,27 @@
+code organziation - efficiency of your code 
+
+Package 
+
+com.test >> should have all the test script
+com.pages >> should have all the page object model classes
+xml files >> test suites, data driven framework, cross browser testing 
+excel file >> 
+
+
+
+private static void do(){}
+
+private static void do()
+
+
+
+
+
+
+
+
+
+
+
+
+

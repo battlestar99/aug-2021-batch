@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[End to End Testing Scneario]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11599" started-at="2021-10-23T18:27:05Z" finished-at="2021-10-23T18:27:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11599" started-at="2021-10-23T18:27:05Z" finished-at="2021-10-23T18:27:17Z">
+      <class name="com.test.validateElementLoginTwo">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.test.validateElementLoginTwo@7f1302d6]" name="setupTest" is-config="true" duration-ms="1780" started-at="2021-10-23T14:27:05Z" finished-at="2021-10-23T14:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="endToEnd()[pri:0, instance:com.test.validateElementLoginTwo@7f1302d6]" name="endToEnd" duration-ms="8927" started-at="2021-10-23T14:27:07Z" finished-at="2021-10-23T14:27:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[End to End Testing Scneario]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endToEnd -->
+        <test-method status="PASS" signature="quitTest()[pri:0, instance:com.test.validateElementLoginTwo@7f1302d6]" name="quitTest" is-config="true" duration-ms="888" started-at="2021-10-23T14:27:16Z" finished-at="2021-10-23T14:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTest -->
+      </class> <!-- com.test.validateElementLoginTwo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
