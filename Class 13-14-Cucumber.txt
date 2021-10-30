@@ -1,0 +1,84 @@
+Cucumber is testing framework 
+
+BDD - behaviour driven development 
+
+1. cucumber jars - cucumber library 
+
+2. cucumber plugin 
+
+Testing Library: 
+
+1. organize your testing script - annotations
+2. pass/fail scenario - assertion
+3. create test suite - xml file
+4. generating test reports - emaillabe.html
+5. creating data driven testing library - parameter from xml file 
+
+TestNG - traditional testing libary 
+cucumber - BDD - behaviour driven development 
+
+non technical part - manual test cases 
+technical part - coding part 
+
+Feature: which specific to test 
+
+one test scenario represents one test case 
+
+Given - pre-condition
+When - how to interact with the application
+Then - how the application should behave to the application 
+
+How to create a test suite in cucumber and generate report? 
+
+Testrunner - junit and cucumber
+junit test runner 
+
+Testrunner >> 
+creating a test suite 
+generating test report 
+
+Hooks >> 
+
+@Before
+
+@After 
+
+@BeforeStep
+
+@AfterStep
+
+
+
+
+cucumber data driven testing 
+
+maven project 
+
+
+next sat >> git, github, jenkins 
+sun >> sql/api 
+
+
+sat >> sal/api
+sun>> sql?api 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

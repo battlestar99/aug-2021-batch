@@ -4,17 +4,19 @@ public class dataTypePracticeOne {
 
 	public static void main(String[] args) {
 		
-		String name = "Mike";
+		swapping(30, 20);
 		
-		// car plate number, ssn, TIN 
-		
-		System.out.println(name);
-		
-         String ssn = "132425";
+     
          
-         System.out.println("this is just a test");
-         
-         System.out.println(ssn);
+	}
+	
+	public static void swapping(int a, int b) {
+		a = a + b;
+        b = a - b;
+        a = a - b;
+        
+        System.out.println(a);
+		System.out.println(b);
 	}
 
 }
