@@ -1,0 +1,47 @@
+Code organization >> organize, share, and run our tests 
+
+organize >> maven 
+
+share >> git and github 
+
+run >> local machine, remote server - jenkins by creating CI/CD pipeline
+
+key things : 
+
+1. code and code libary management - selenium, testng, cucumbers 
+2. code repository >> git, github
+3. run the tests >> local machine, remote server 
+
+no java project - build management 
+maven
+gradle
+ant 
+
+1. dependency management >> dependencies are the programming libararies that we are going to use 
+2. build the whole application or code 
+3. running the code - running test suite 
+
+POM XML >> project object model 
+
+jobs@agile1tech.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

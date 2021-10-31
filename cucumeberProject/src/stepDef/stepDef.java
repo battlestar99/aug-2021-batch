@@ -4,7 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -13,11 +15,13 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
 import pages.loginPage;
+import pages.yahooPage;
 
 public class stepDef {
 	
 	WebDriver driver; 
 	loginPage lp; 
+	yahooPage yp; 
 	
 	
 	@Before
@@ -26,6 +30,7 @@ public class stepDef {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Agile1Tech\\Desktop\\Automation Testing Class\\workspace-aug-2021\\drivers\\chromedriver.exe");	 
 		driver = new ChromeDriver();
 		lp=new loginPage(driver);
+		yp=new yahooPage(driver);
 
 	     driver.manage().deleteAllCookies();
 	     
@@ -175,6 +180,74 @@ public class stepDef {
 	}
 	
 	
+	// ---------------------------------------------------
+	
+	
+
+	@Then("^user should navigate to the \"([^\"]*)\"$")
+	public void user_should_navigate_to_the(String expectedUrl) throws Throwable {
+	    
+		String actualUrl = driver.getCurrentUrl(); 
+		Assert.assertEquals(expectedUrl, actualUrl);	
+		
+	}
+	
+	
+	@When("^user enters \"([^\"]*)\" username for login$")
+	public void user_enters_username_for_login(String username) throws Throwable {
+		lp.getUserName().sendKeys(username);
+	}
+
+	@When("^user enters \"([^\"]*)\" password for login$")
+	public void user_enters_password_for_login(String password) throws Throwable {
+		lp.getPassword().sendKeys(password);
+	}
+
+	
+// ---------------------------------------------------------
+	
+	@Given("^user is on the yahoo sign up page$")
+	public void user_is_on_the_yahoo_sign_up_page() throws Throwable {
+	    
+		driver.get("https://login.yahoo.com/account/create");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+
+	@When("^user enters \"([^\"]*)\" firstname in the sign up page$")
+public void user_enters_firstname_in_the_sign_up_page(String firstname) throws Throwable {
+	    
+		yp.getFirstName().sendKeys(firstname);
+	}
+
+	@When("^user enters \"([^\"]*)\" lastname in the sign up page$")
+	public void user_enters_lastname_in_the_sign_up_page(String lastname) throws Throwable {
+	   
+		yp.getlastName().sendKeys(lastname);
+	}
+
+	@When("^user enters \"([^\"]*)\" email address in the sign up page$")
+	public void user_enters_email_address_in_the_sign_up_page(String email) throws Throwable {
+	    
+		yp.getEmailAddress().sendKeys(email);
+		
+	}
+
+	@When("^user enters \"([^\"]*)\" password in the sign up page$")
+	public void user_enters_password_in_the_sign_up_page(String password) throws Throwable {
+	   
+		yp.getPassword().sendKeys(password);
+	}
+	
+	@When("^user Selects \"([^\"]*)\" country code in the sign up page$")
+	public void user_Selects_country_code_in_the_sign_up_page(String countryCode) throws Throwable {
+	    
+		WebElement country = yp.getCountrycode();
+		Select cc = new Select(country);
+		
+		cc.selectByValue(countryCode);
+		
+	}
+
 	
 	
 	

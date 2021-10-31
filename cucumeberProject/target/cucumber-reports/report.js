@@ -1,357 +1,829 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("login.feature");
-formatter.feature({
-  "comments": [
-    {
-      "line": 2,
-      "value": "# author: razin anik"
-    },
-    {
-      "line": 3,
-      "value": "#date : 10/30/2021"
-    }
-  ],
-  "line": 6,
-  "name": "Login feature for sauce lab",
-  "description": "",
-  "id": "login-feature-for-sauce-lab",
-  "keyword": "Feature"
-});
-formatter.before({
-  "duration": 1913133900,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "Validating the login for valid credential",
-  "description": "",
-  "id": "login-feature-for-sauce-lab;validating-the-login-for-valid-credential",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 10,
-      "name": "@smoke"
-    },
-    {
-      "line": 10,
-      "name": "@regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 12,
-  "name": "user is on the login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 13,
-  "name": "user enters valid username",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "user enters valid password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "user clicks on the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "user should be on the inventory page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepDef.user_is_on_the_login_page()"
-});
-formatter.result({
-  "duration": 305467400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_enters_valid_username()"
-});
-formatter.result({
-  "duration": 86675500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_enters_valid_password()"
-});
-formatter.result({
-  "duration": 103266600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_clicks_on_the_login_button()"
-});
-formatter.result({
-  "duration": 124161500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_should_be_on_the_inventory_page()"
-});
-formatter.result({
-  "duration": 106039400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 884353800,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1224000100,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 19,
-  "name": "Validating the login for invalid credential",
-  "description": "",
-  "id": "login-feature-for-sauce-lab;validating-the-login-for-invalid-credential",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 18,
-      "name": "@regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 20,
-  "name": "user is on the login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 21,
-  "name": "user enters invalid username",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 22,
-  "name": "user enters invalid password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "user clicks on the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "user should stay in the login page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepDef.user_is_on_the_login_page()"
-});
-formatter.result({
-  "duration": 230389300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_enters_invalid_username()"
-});
-formatter.result({
-  "duration": 117256900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_enters_invalid_password()"
-});
-formatter.result({
-  "duration": 104634200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_clicks_on_the_login_button()"
-});
-formatter.result({
-  "duration": 57225500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_should_stay_in_the_login_page()"
-});
-formatter.result({
-  "duration": 10918200,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 818273100,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 1242524600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 28,
-  "name": "Validating the login for problem user credential",
-  "description": "",
-  "id": "login-feature-for-sauce-lab;validating-the-login-for-problem-user-credential",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 27,
-      "name": "@smoke"
-    },
-    {
-      "line": 27,
-      "name": "@regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 29,
-  "name": "user is on the login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 30,
-  "name": "user enters problem users username",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 31,
-  "name": "user enters invalid password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 32,
-  "name": "user clicks on the login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 33,
-  "name": "user should be on the inventory page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepDef.user_is_on_the_login_page()"
-});
-formatter.result({
-  "duration": 242774300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_enters_problem_users_username()"
-});
-formatter.result({
-  "duration": 95667300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_enters_invalid_password()"
-});
-formatter.result({
-  "duration": 92648400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_clicks_on_the_login_button()"
-});
-formatter.result({
-  "duration": 108582500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "stepDef.user_should_be_on_the_inventory_page()"
-});
-formatter.result({
-  "duration": 18624600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 753866000,
-  "status": "passed"
-});
-formatter.uri("loginElement.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("yahoosignUpData.feature");
 formatter.feature({
   "comments": [
     {
       "line": 1,
-      "value": "# author: razin anik"
+      "value": "# Author: Razin Anik"
     }
   ],
-  "line": 3,
-  "name": "login feature with multiple web elements",
+  "line": 2,
+  "name": "Signup module for Yahoo",
   "description": "",
-  "id": "login-feature-with-multiple-web-elements",
+  "id": "signup-module-for-yahoo",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 1287436400,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 6,
-  "name": "validating login elements are in the login page",
+formatter.scenarioOutline({
+  "line": 4,
+  "name": "",
   "description": "",
-  "id": "login-feature-with-multiple-web-elements;validating-login-elements-are-in-the-login-page",
-  "type": "scenario",
-  "keyword": "Scenario",
+  "id": "signup-module-for-yahoo;",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 5,
-      "name": "@regression"
+      "line": 3,
+      "name": "@yahoo"
     }
   ]
 });
 formatter.step({
-  "line": 8,
-  "name": "user is on the login page",
+  "line": 5,
+  "name": "user is on the yahoo sign up page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 9,
-  "name": "user should be able to type in username text box",
+  "line": 6,
+  "name": "user enters \"\u003cfirstname\u003e\" firstname in the sign up page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 10,
-  "name": "user should be able to type in password text box",
+  "line": 7,
+  "name": "user enters \"\u003clastname\u003e\" lastname in the sign up page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 11,
-  "name": "user should be able to click on the click button",
+  "line": 8,
+  "name": "user enters \"\u003cemailaddress\u003e\" email address in the sign up page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user enters \"\u003cpassword\u003e\" password in the sign up page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "user Selects \"\u003ccountryCode\u003e\" country code in the sign up page",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 12,
+  "name": "",
+  "description": "",
+  "id": "signup-module-for-yahoo;;",
+  "rows": [
+    {
+      "cells": [
+        "firstname",
+        "lastname",
+        "emailaddress",
+        "password",
+        "countryCode"
+      ],
+      "line": 13,
+      "id": "signup-module-for-yahoo;;;1"
+    },
+    {
+      "cells": [
+        "Michael",
+        "Scot",
+        "scott1121",
+        "dafdasfds++",
+        "AF"
+      ],
+      "line": 14,
+      "id": "signup-module-for-yahoo;;;2"
+    },
+    {
+      "cells": [
+        "Michael",
+        "jordan",
+        "jdn323",
+        "fadsfdsafdsa",
+        "DZ"
+      ],
+      "line": 15,
+      "id": "signup-module-for-yahoo;;;3"
+    },
+    {
+      "cells": [
+        "Jim",
+        "Halpert",
+        "jimdsjhfd",
+        "dfdfdfidf",
+        "AO"
+      ],
+      "line": 16,
+      "id": "signup-module-for-yahoo;;;4"
+    },
+    {
+      "cells": [
+        "Razin",
+        "Anik",
+        "dfdsfds",
+        "dfadsfjdhf8",
+        "BH"
+      ],
+      "line": 17,
+      "id": "signup-module-for-yahoo;;;5"
+    },
+    {
+      "cells": [
+        "seth",
+        "malik",
+        "dfhfk",
+        "dfjf78++",
+        "CR"
+      ],
+      "line": 18,
+      "id": "signup-module-for-yahoo;;;6"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 1911931500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "",
+  "description": "",
+  "id": "signup-module-for-yahoo;;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@yahoo"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "user is on the yahoo sign up page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "user enters \"Michael\" firstname in the sign up page",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "user enters \"Scot\" lastname in the sign up page",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user enters \"scott1121\" email address in the sign up page",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user enters \"dafdasfds++\" password in the sign up page",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "user Selects \"AF\" country code in the sign up page",
+  "matchedColumns": [
+    4
+  ],
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepDef.user_is_on_the_login_page()"
+  "location": "stepDef.user_is_on_the_yahoo_sign_up_page()"
 });
 formatter.result({
-  "duration": 229132300,
+  "duration": 800513300,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepDef.user_should_be_able_to_type_in_username_text_box()"
+  "arguments": [
+    {
+      "val": "Michael",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_firstname_in_the_sign_up_page(String)"
 });
 formatter.result({
-  "duration": 68450000,
+  "duration": 93961200,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepDef.user_should_be_able_to_type_in_password_text_box()"
+  "arguments": [
+    {
+      "val": "Scot",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_lastname_in_the_sign_up_page(String)"
 });
 formatter.result({
-  "duration": 62021200,
+  "duration": 80870600,
   "status": "passed"
 });
 formatter.match({
-  "location": "stepDef.user_should_be_able_to_click_on_the_click_button()"
+  "arguments": [
+    {
+      "val": "scott1121",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_email_address_in_the_sign_up_page(String)"
 });
 formatter.result({
-  "duration": 59626500,
+  "duration": 76710500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dafdasfds++",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_password_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 66634100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "AF",
+      "offset": 14
+    }
+  ],
+  "location": "stepDef.user_Selects_country_code_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 135372100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 813891800,
+  "duration": 811316100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1228575000,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "",
+  "description": "",
+  "id": "signup-module-for-yahoo;;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@yahoo"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "user is on the yahoo sign up page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "user enters \"Michael\" firstname in the sign up page",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "user enters \"jordan\" lastname in the sign up page",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user enters \"jdn323\" email address in the sign up page",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user enters \"fadsfdsafdsa\" password in the sign up page",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "user Selects \"DZ\" country code in the sign up page",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDef.user_is_on_the_yahoo_sign_up_page()"
+});
+formatter.result({
+  "duration": 681603200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Michael",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_firstname_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 97039400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "jordan",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_lastname_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 87337000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "jdn323",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_email_address_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 76332400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "fadsfdsafdsa",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_password_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 81569000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "DZ",
+      "offset": 14
+    }
+  ],
+  "location": "stepDef.user_Selects_country_code_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 105811000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 745770300,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1240792400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "",
+  "description": "",
+  "id": "signup-module-for-yahoo;;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@yahoo"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "user is on the yahoo sign up page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "user enters \"Jim\" firstname in the sign up page",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "user enters \"Halpert\" lastname in the sign up page",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user enters \"jimdsjhfd\" email address in the sign up page",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user enters \"dfdfdfidf\" password in the sign up page",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "user Selects \"AO\" country code in the sign up page",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDef.user_is_on_the_yahoo_sign_up_page()"
+});
+formatter.result({
+  "duration": 679966900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jim",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_firstname_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 90433200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Halpert",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_lastname_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 90658500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "jimdsjhfd",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_email_address_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 78730000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dfdfdfidf",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_password_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 71569500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "AO",
+      "offset": 14
+    }
+  ],
+  "location": "stepDef.user_Selects_country_code_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 103792400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 742058700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1265365200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "",
+  "description": "",
+  "id": "signup-module-for-yahoo;;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@yahoo"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "user is on the yahoo sign up page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "user enters \"Razin\" firstname in the sign up page",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "user enters \"Anik\" lastname in the sign up page",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user enters \"dfdsfds\" email address in the sign up page",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user enters \"dfadsfjdhf8\" password in the sign up page",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "user Selects \"BH\" country code in the sign up page",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDef.user_is_on_the_yahoo_sign_up_page()"
+});
+formatter.result({
+  "duration": 707609400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Razin",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_firstname_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 85796200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Anik",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_lastname_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 84104700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dfdsfds",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_email_address_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 78417400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dfadsfjdhf8",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_password_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 71161500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "BH",
+      "offset": 14
+    }
+  ],
+  "location": "stepDef.user_Selects_country_code_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 117540700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 736155100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1241783100,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 18,
+  "name": "",
+  "description": "",
+  "id": "signup-module-for-yahoo;;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@yahoo"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "user is on the yahoo sign up page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "user enters \"seth\" firstname in the sign up page",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "user enters \"malik\" lastname in the sign up page",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user enters \"dfhfk\" email address in the sign up page",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user enters \"dfjf78++\" password in the sign up page",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "user Selects \"CR\" country code in the sign up page",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDef.user_is_on_the_yahoo_sign_up_page()"
+});
+formatter.result({
+  "duration": 714514000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "seth",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_firstname_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 78498700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "malik",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_lastname_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 88354700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dfhfk",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_email_address_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 72526900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "dfjf78++",
+      "offset": 13
+    }
+  ],
+  "location": "stepDef.user_enters_password_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 65885300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "CR",
+      "offset": 14
+    }
+  ],
+  "location": "stepDef.user_Selects_country_code_in_the_sign_up_page(String)"
+});
+formatter.result({
+  "duration": 117083300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 795993200,
   "status": "passed"
 });
 });

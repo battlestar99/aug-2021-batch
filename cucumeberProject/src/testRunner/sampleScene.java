@@ -11,11 +11,15 @@ import cucumber.api.junit.Cucumber;
 		
 		features= {"src/Feature"},
 		glue = {"stepDef"},
-		plugin= {"pretty","html:target/cucumber-reports"}
+		plugin= {"pretty","html:target/cucumber-reports"},
+		tags = {"@data"}
 		
 		
 		)
 
-public class regressionSuite {
+
+
+
+public class sampleScene {
 
 }

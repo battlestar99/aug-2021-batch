@@ -5,13 +5,11 @@
 
 Feature: Login feature for sauce lab 
 
- 
-
 @smoke @regression
 Scenario: Validating the login for valid credential 
 Given user is on the login page
+When  user enters valid password
 When user enters valid username
-And  user enters valid password
 And user clicks on the login button
 Then user should be on the inventory page 
 
@@ -24,7 +22,7 @@ And user clicks on the login button
 Then user should stay in the login page
 
 
-@smoke @regression
+ @regression
 Scenario: Validating the login for problem user credential
 Given user is on the login page 
 When user enters problem users username

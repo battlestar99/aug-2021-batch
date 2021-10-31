@@ -66,6 +66,83 @@ sun>> sql?api
 
 
 
+cucumber testing framework : 
+
+sun - api testing
+sat - sql/api
+sun - sql/api 
+
+jobs@agile1tech.com
+
+
+Testing framework: TestNG or Cucumber 
+
+1. code organize - annotations-sequence, feature - step def
+2. pass/fail - assertions ( expected result with actual test) 
+3. how to create test suite - XML file, junit test runner 
+4. generate report - emailablereport.html, index.html - test runner 
+5. data driven testing - xml file, data table 
+6. cross browser testing - UX, user experience 
+
+page object model - how, why
+base class - sharing the common functionalities 
+test scripts - opening the browser, closing the brwoser, deleteding, opening different browser 
+page object model - same web elements are availabel in different page
+
+Test data: 
+
+positive data
+negative data 
+
+Framework : Hybrid framework 
+
+Hybrid : object driven + data driven 
+object driven >> page object model 
+data driven >> test data is seperated from test script
+
+
+
+
+
+
+1 - 20/25 questions >> frameworks, your work
+
+java
+selenium
+cucumber
+testng
+ci/cd 
+
+requirments/user stories >> tests, test case, test scripts 
+
+steps 
+
+10 pages >> 
+
+10 page 
+
+tesng/cucumber - template , frameowrk, skeloton
+
+Cucumber data driven framework: 
+
+Scenario outline: 
+
+Examples: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

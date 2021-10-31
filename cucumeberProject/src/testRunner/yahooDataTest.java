@@ -1,5 +1,6 @@
 package testRunner;
 
+
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
@@ -11,11 +12,12 @@ import cucumber.api.junit.Cucumber;
 		
 		features= {"src/Feature"},
 		glue = {"stepDef"},
-		plugin= {"pretty","html:target/cucumber-reports"}
+		plugin= {"pretty","html:target/cucumber-reports"},
+		tags = {"@yahoo"}
 		
 		
 		)
 
-public class regressionSuite {
+public class yahooDataTest {
 
 }
