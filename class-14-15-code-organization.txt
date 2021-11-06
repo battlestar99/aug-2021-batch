@@ -28,6 +28,217 @@ jobs@agile1tech.com
 
 
 
+code organization >> 
+
+Sunday >> api testing , rest api testing using postman
+
+saturday and sunday >> sql  
+
+
+assertion>> comparing expected and actual value
+expected >> requirements, user stories
+actual >> come from the test 
+
+TestNG >> @Test 
+Cucumber >> Scenario >> 
+
+organizaing, running and maintaining your code >> 
+
+web application testing >> selenium library , java/python/C#/ruby/ java scripts 
+
+java-selenium >> web application testing , Web UI testing 
+
+TestNG 
+Cucumber 
+
+1. the project already exists
+2. new project is required to create 
+
+project will be in a build managment system: 
+maven >> most popular one 
+gradle, ant 
+
+why you are using them? 
+what you can do with them? 
+
+1. local environment / local computer 
+2. remote environment / remote server 
+project level:
+
+maven project >> 
+
+1. it is easily sharable to any other people - software package 
+2. depency managment is easy/programming libraries you need for your project 
+3. gives you some build commands 
+
+POM.xml 
+project object model >> 
+
+maven has two types repository: 
+
+central or web repository 
+local respository >> .m2 
+
+
+
+
+
+Test NG >> 
+
+testscript
+page object model
+utility package
+xml files >> regression, smoke, UAT
+
+cucumber >> 
+feature
+stepdef
+testrunner
+page object models
+
+TestNG/cucumber 
+
+how you run your tests, local or remote? 
+
+TestNG >> 
+TestNG Test>> java file
+TestNG Suite >> xml file, smoke, regression, staging, trial
+
+smoke testing suite >> analyze the result 
+TestNG, 
+
+3 tests failure >> manually execute the tests
+log the failure as defect 
+
+
+Cucumber 
+
+feature >> cucumber feature
+testrunner >> junit test runner 
+
+maven >>
+
+build - comound command
+install test clean 
+
+generate-source >> creating jar file from your project  
+
+install >> insalling or downloading all the jar required for your project
+
+test >> it is going to run the app.java file 
+
+clean >> going to delete all the temporary files after running your code 
+
+
+surefire plugin >> you can specify any file you want to run 
+xml file 
+java file 
+
+code repository >> 
+1. providing code to your company
+2. sharing code with your other team members 
+3. having a track of different version of the code 
+
+github or bitbucket, gitlab
+
+web based repository 
+
+version control system 
+
+git, the most popular and first version control 
+svn , version control 
+
+anik@agile1tech.com 
+
+devops >> development and operation 
+
+manage , maintain codes, remote servers and deployment 
+
+reposiotory >> you can store things, specifically code , github, bitbucket
+version cotrol system >> git or svn
+
+Unix >> Linux 
+git
+
+
+local - whatever you are doing locally
+remote - web 
+
+git commit -m "base class function is added"
+
+
+import the project in eclipse >> just working on it
+
+
+
+2 automation testers >> 
+
+1. 
+
+push - from local computer to remote github
+pull - from remote to local 
+
+clone - download the whole repository >> you have to do it only one time
+when you start working in project that already exists 
+
+git clone https://github.com/battlestar99/sampleGitRepo/tree/master
+
+Tests from remote server - Creating a CI/CD pipeline 
+
+build >> install test(surefire plugin) clean 
+
+remote server >> remote computer 
+
+CI/CD >> contineous integration and contineous development pipeline 
+
+jenkins/bamboo 
+
+atlassian 
+jira, confluence, bitbuckt, bamboo 
+
+microsoft
+visual studio with C#, tfs, azure devops pipeline, github 
+
+ibm 
+
+java-selenium, testng/cucumber
+maven, git, github repository 
+jenkins - remote server and CI/CD 
+
+jenkins for testers 
+
+1. jenkins server - so team members can run tests from remote 
+jenkins jobs - devops 
+ 1. manually running the tests - connecting the github reposiotry to jenkins 
+job 
+2. scheduelling - 4 PM 
+
+3. CI/CD pipeline >> triggering the tests based on the new deployment 
+
+I know how to create a jenkins job and schedulling them 
+
+  1. provide a name 
+ 2. connect it with the repository system, provide repository url and logins
+3. schedule  - cron format
+
+minute - minutes in an hour (0-59)
+hours- hours in a day (0-23)
+daymonth- days in a month (1-31)
+month- months in a year (1-12)
+dayweek - day of week (0-7) , 0 and 7 are sunday 
+
+30 14  ** 1 2 3 
+
+4. CI/CD pipeline: 
+
+jenkins need at least 2 plugins : 
+
+maven plugin
+git plugin
+
+install test clean
+
+
 
 
 
