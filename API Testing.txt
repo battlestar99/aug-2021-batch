@@ -1,0 +1,288 @@
+Front-End - UI / user interface / web UI 
+functional testing 
+
+Testing phase 
+smoke
+sanity
+regression 
+UAT
+
+two mode of execution: 
+manual 
+automation 
+
+Back-end - data is stored 
+
+API >> application programming interface >> web service 
+
+database >> table format >> sql queries 
+
+Data >> 
+
+CRUD 
+create
+read
+update
+delete 
+
+API - transportation medium for data - 
+
+we need to test if the trasnporation of data is done properly 
+create - data is created
+update - data is updated
+read - data should be available 
+delete - deleted from the database 
+
+SOAP API - functions 
+
+Rest API - request and response 
+
+API / web service 
+
+data sharing >> facbook, twitter, DMV 
+
+API >> authentication 
+
+cloud testing >> aws, azure 
+
+e-commerce >> 
+front-end >> godadday, hostgator
+oracle >> 
+rest api >> 
+data mining, AI >> 
+security >> 
+chat module >> 
+
+aws experience , cloud testing 
+
+solution architect 
+
+maintaince , configuration 
+
+dev
+test
+staging
+release 
+
+Rest API structure: 
+
+1. request: what you need to send 
+
+4 types of requests 
+
+create >> post
+read >> get 
+update >> put
+delete >> delete 
+
+these are http commands for rest api > 
+
+2. response: what you expect to get as a response 
+
+get >> you should have some data 
+
+http response 
+200-ok - pass
+404-not found
+400 - bad request 
+
+post >> 
+201 >> created - pass
+204 >> no content - test failure
+
+put >> 
+200 >> status ok
+201 >> created - pass
+204 >> no content - test failure
+
+delete 
+
+202 - accepted 
+
+
+Form of the request 
+
+URL << uniform resource locator 
+www.google.com
+www.google.com/jobs
+
+URI >> uniform resource idenfier 
+
+URL + end point 
+
+request to send, URI with that request 
+
+sending an request: 
+
+http commannd(get, put, post, delete)  , URI www.agile1tech.employees/10
+
+response: 
+
+http status code, response body ( XML, json) 
+
+validate the response: 
+
+status code
+response body
+response time 
+
+xml and json are data transporation 
+
+xml >> extensible markup lanaguage 
+
+<names>
+<name value="anik" id="001" </name>
+<name value="mike" id="002" </name>
+<name value="john" id="003" </name>
+</names>
+
+json >> javascript object notation
+key-value pair
+names {
+
+ name {
+     value: gk 
+     id : 001
+
+}
+name {
+     value: anik 
+     id : 002
+
+}
+
+
+}
+
+
+
+
+3. how you are validating response 
+
+
+4. how you write test cases for api testing, how do you know what requst
+to send what you can get as response 
+
+step 1: api documentation 
+excel and swagger 
+
+step 2: creating test case from the api document 
+excel 
+uri - request body - success respone code - failure response code- 
+response body - validate respone 
+
+step 3: converting the test cases to a testing tool postman or soap ui 
+
+step 4: 
+
+VPN >> virtual private network 
+dev environment >> dev.agile1tech.com >> devenvurl + end point
+test environment >> test.agile1tech.com>>test env url+ end point
+staging environment>> stage.agile1tech.com>> stage env url + end point
+release enviroment >> www.agile1tech.com >> release url + end point
+
+200 api test cases >> you can test suites >> run them with every new build 
+or moving to any new enviroment 
+
+smoke testing suite >> most importna and most critical 
+add smoke testing suite 
+regression testing suite>> cover all the api requests 
+sanity testing suite >> new api request 
+UAT testing suite >> uat testing suite 
+
+step 5: what will be the test result, what you are going to do with test cases 
+
+log it as a defect 
+
+description: 
+
+api is not letting the user to add new credit card. api requests is this one
+and response is 404 
+
+from your side : 
+
+come up with some scenario
+
+dol >> interally dol calanders
+veteran affirs >> people can register for benefits
+update their benefit status
+update their login 
+
+50 of them - smoke
+150 - regression
+10 - sanity
+
+defect logging and tracking tool >> jira with zephyr 
+
+
+
+5. how you can organize all these activites in a api testing tools like postman 
+
+
+6. how you explain your experience as API tester 
+
+
+regust - 
+uri - 
+authorization - 
+api key - key value 
+bearer token 
+
+using java script code 
+
+javascript to write the test scripts in postmane
+
+status code - 
+
+response time - 
+
+var response = JSON.parse(responseBody);
+
+response.data.email = "janet.weaver@reqres.in",
+response.dataone.support.url = "https://reqres.in/#support-heading";
+
+respone body - 
+{
+ data {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+{ dataone:{
+
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+
+}
+}
+
+
+respone body validation: 
+
+
+
+
+tests["Validating Status Code"] = responseCode.code == 200;
+tests["Validating respone time"] = responseCode.time == 45;
+var response = JSON.parse(responseBody);
+tests["verify firstname"] = response.data.first_name == "Janet";
+tests["verify last name"] = response.data.last_name == "Weaver";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
