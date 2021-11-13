@@ -1,0 +1,187 @@
+Database Testing Using SQL: 
+
+
+
+What you need to know as Tester: 
+
+1. structure of the database 
+2. to interact to database - 
+CRUD 
+create
+read 
+update
+delete
+
+SQL >> structured query language 
+3. need to check if data is created, read, updated or deleted properly in the database
+
+mysql server
+oracle database
+microsft sql server
+
+key point 1: data is always stored in different tables 
+columns - fields 
+rows - record - entry 
+
+SQL - is not a programming language 
+query lanaguage 
+
+CRUD 
+
+
+
+
+CRUD >> 
+
+creating data >> its not your responsibility 
+reading data >> testers need to know that 
+updating >> 
+delete >> 
+
+Readind data: 
+
+Select columnname from tablename where filtering criterian 
+
+add multiple conidition of filtering tecniques 
+
+and >> coniditon1 and condition2 >> both condition has to be true
+or >> coniditon1 or condition2 >> one condition will bring the data
+
+prob 1: customername, city of the customers from uk and usa 
+
+I want to see the list of customers and their city from germany who are buying the product where the price is between 30 and 40 >> join
+
+
+1. columns you want see
+2. which table/tables these columns are coming from 
+3. all the recode or entries/or condition
+
+Select columnsname from tablename where filtering  
+
+ASC >> default >> lowest to highest for numbers
+alphabetical order 
+
+DESC >>  highest to lowest 
+reverse alphabetical order
+
+FIFO 
+
+Aggregate functions in sql 
+
+min
+max
+avg
+sum
+count
+
+SELECT * FROM Customers
+WHERE Country = germany or country = france or country = uk 
+
+subqueries >> 
+
+Structure of the database: 
+
+database >> tables 
+table >> columns, rows 
+
+1. type of data in a column, datatype
+2. nature of data 
+
+Basic data type of the column 
+
+char(5)
+varchar(20)
+Text >> 256 
+INT >> 65K
+blob >> pics, video
+
+data type 
+firstname >>varchar(20) NOt null
+lastname>>varchar(15)NOt null
+email>> varchar(40), UNIQUE
+age >> INT, Default = 0 
+orderprice >> INT 
+ssn >> char(9) Primary key, 
+city >> Default City = DC
+
+constraints 
+
+NOT NULL >> there must have to data 
+NULL >> default , O 
+UNIQUE>> no repeating data in the field 
+Primary key >> Unique + not null
+Check >> putting an specific condition 
+Default >> putting a data when some field is left NULL 
+Foreign Key >> 
+
+compound primary key >> dob_whichcarbought_city
+
+Mike Pence
+
+10000 >> DL 
+
+
+University>> active students 
+SSN
+Mike pence
+DMV >> driving licence and record 
+SSN
+Health care database >> 
+SSN
+
+customer information 
+
+email >> primary key 
+mike@gmail.com
+
+order information >> 
+
+email >> foreign key
+
+pen mike@gmail.com
+computer mike@gmail.com
+book mike@gmail.com
+
+
+
+
+Create Table Customers
+(
+
+firstname Varachar(50) NOT NULL 
+lastname Varachar(50) Default = "Noname"
+age INT Check Age>20
+ssn Char(9) UNIQUE
+email Varachar(50) Primary Key
+address Varachar(50) NOT NULL 
+pic  blob Default = location of the pic
+
+)
+
+mapping the table with the front end
+
+
+
+
+
+
+
+Join 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
