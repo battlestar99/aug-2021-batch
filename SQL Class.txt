@@ -161,13 +161,174 @@ pic  blob Default = location of the pic
 mapping the table with the front end
 
 
-
-
-
-
-
 Join 
 
+Study: 
+
+1. interview questions 
+manual testing 
+automation testing questions >> 1-15 
+api testing questions
+sql questions 
+508 testing
+mobile testing
+
+2. homeworks 
+
+SQL >> 
+
+table >> columns and rows
+
+datatype 
+constraints 
+
+database workbench
+
+mysql workbench
+microsoft sql server
+oracle 
+Join 
+
+Structure of read data
+
+Select columns 
+from tablename 
+where filtering 
+
+multiple tables >> at least 2 tables 
+
+joins
+
+foreign key 
+
+
+e-commarce business 
+customers table
+order table 
+credit card table
+address table 
+
+
+primary key: finding one specific information from one table
+foreign key: making relation between multiple table 
+
+Scnairo: find out what GK bought 
+
+Select customers.firstname, order.product
+from Customers inner join order
+Having customers.cid = 4
+On customer.cid = order.oid
+
+How much money gk spent: 
+
+Select customers.firstname, SUM(order.price)
+from Customers inner join order
+Having customers.cid = 4
+On customer.cid = order.oid
+Group By customers.firstname
+
+inner join >> when we get only matching data from both table
+full outer join >> we get all data from all the data 
+left join >> all data from left table only matching data from right table 
+right join >> all data right table only matching data from left table 
+
+Select customers.firstname, order.product
+from Customers right join order
+Having customers.cid = 4
+On customer.cid = order.oid
+
+Scenario: want to see the customer name with product they bought
+
+
+(customer inner join order) inner join address 
+
+(customer inner join order) full outer join address 
+
+(customer inner join order) left join address 
+
+joining two tables >> each record has to have relation with a record or multiple records on another table based on the foreign key 
+
+sprint - 1
+
+sprint - 2 
+
+sprint - 3
+
+Story point standard 1 
+
+1 person 1 day work 
+
+10 story point - for each sprint 
+
+4 backlogs >> 10 story points 
+
+setting up the env - 2 
+regression tests - 1 
+new test case - 5 
+Read >> 
+create >> table
+update table (any structure of the data), data(recode or entries)
+delete table, data ( record or entry) 
+
+drop table tablename>> table will be completely deleted 
+truncate tablaname>> it will only delete the data in the table 
+
+you can update the structure >> columns 
+
+Alter table customer drop firstname
+Alter table customer modify firstname varchar(45) Not NULL
+Alter table customer add emailaddreess varchar(45) Not NULL
+
+updating data 
+
+update customer set age=21, password=dsflkjdfj+ where ssn=343434
+
+delete customer where ssn= 343434
+
+how to insert data in a table 
+
+
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+Tester what will be our responsibilities: 
+
+database developer , software developer >> designing and implementing
+mapping  
+database requiement doc 
+ERD diagram >> entity relationship diagram 
+
+data scientist, data analyst >> analyze the data 
+
+ETL testing >> export transfer load 
+
+database tester >> 
+
+data mapping testing >> validating if UI is conformed with Database
+data constraint testing >> validating the constraint of any columns 
+age > 18
+
+20 tables >> 150 columns >> 150 test cases 
+data integrity testing >> data validation >> 
+update something front-end and check if it is refelected in back-end
+update something in back-end and check if it is reflected in front-end
+
+java-jdbc  
+
+end-to-end testing >> UI , API , Database 
+
+1. I know sql queries 
+2. testing - mapping, constraing, integrity
+3. end-to-end
+
+UI - user interface testing 
+
+UI testing >> 70 perenct 
+api testing>> 13/14 percent 
+database testing >> 5-7 percent
+
+jobs@agile1tech.com 
+2 weeks 
 
 
 
